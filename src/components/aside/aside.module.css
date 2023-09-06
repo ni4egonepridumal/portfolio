@@ -1,0 +1,66 @@
+.container {
+  height: 100vh;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  margin-right: 50px;
+  position: relative;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  background-image: url("Maxim.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 30px auto;
+}
+.position {
+  margin-right: 15px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.contact_inner {
+  position: relative;
+}
+.contact_item {
+  position: absolute;
+  top: 10px;
+  right: 120px;
+}
+.project {
+  margin-top: 250px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #f2bc12;
+  position: relative;
+}
+.withoutCode,
+.homePage {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.project,
+.withoutCode,
+.homePage {
+  cursor: pointer;
+}
+.note {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  color: red;
+}
+.react {
+  position: absolute;
+  top: 3px;
+  left: 232px;
+}
+.redux {
+  position: absolute;
+  top: 3px;
+  right: 232px;
+}
