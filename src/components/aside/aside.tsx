@@ -21,7 +21,7 @@ export const Aside = () => {
                     <li><BsMailbox className={styles.position} /><a href="mailto:apc-mv@yandex.ru" target="_blank">Email</a></li>
                 </ul>
             </div>
-            <div className={styles.project}><Link to={'/projects'}><BiLogoReact className={styles.react} style={{ color: "#0074a6" }} />Мои проекты</Link><BiLogoRedux style={{ color: "#764abc" }} className={styles.redux} /></div>
+            <div className={styles.project}><Link to={'/projects/repair'}><BiLogoReact className={styles.react} style={{ color: "#0074a6" }} />Мои проекты</Link><BiLogoRedux style={{ color: "#764abc" }} className={styles.redux} /></div>
             <div className={styles.withoutCode}><Link to={'/aboutMe'}>Вне кода </Link><span style={{ color: "red" }}>*</span></div>
             <div className={styles.homePage}><Link to={'/'}>Домашняя</Link></div>
             <div className={styles.note}>*если вдруг стало интересно</div>

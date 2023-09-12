@@ -1,0 +1,42 @@
+.position {
+  position: relative;
+}
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 20px;
+  position: relative;
+}
+.ul {
+  margin: 10% 0px 0px 15px;
+}
+.anchor {
+  margin-left: 15px;
+  color: red;
+}
+.buttonNext {
+  padding: 10px 5px;
+  border-radius: 15px;
+  border: solid 2px #f2bc12;
+  background-color: #f2bc12;
+  font-family: "Handjet", sans-serif;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.buttonPrevious {
+  padding: 10px 5px;
+  border-radius: 15px;
+  border: solid 2px #f2bc12;
+  background-color: #f2bc12;
+  font-family: "Handjet", sans-serif;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
