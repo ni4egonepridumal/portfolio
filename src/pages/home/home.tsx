@@ -215,49 +215,53 @@ export const Home = () => {
                         />
                     </div>
                 </div>
-                <p style={{ margin: "15px 0px", textDecoration: "underline" }}> Тесты:</p>
-                <div className={styles.general}>
-                    <div className={styles.smallText}>
-                        <label>Jest</label>
-                        <img
-                            src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
-                            alt="jest"
-                            width="40"
-                            height="40"
-                        />
+                <div className={styles.testing_other}>
+                    <div>
+                        <p style={{ margin: "15px 0px", textDecoration: "underline" }}> А также:</p>
+                        <div className={styles.general}>
+                            <div className={styles.img}>
+                                <label>Postman</label>
+                                <img
+                                    src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                                    alt="postman"
+                                    width="40"
+                                    height="40"
+                                />
+                            </div>
+                            <div className={styles.smallText}>
+                                <label>Figma</label>
+                                <img
+                                    src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+                                    alt="figma"
+                                    width="40"
+                                    height="40"
+                                />
+                            </div>
+                            <div className={styles.img}>
+                                <label>Photoshop</label>
+                                <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
+                                    alt="photoshop"
+                                    width="40"
+                                    height="40"
+                                />
+                            </div>
+                            <div className={styles.general}>
+                                <div className={styles.smallText}>
+                                    <label>Jest</label>
+                                    <img
+                                        src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+                                        alt="jest"
+                                        width="40"
+                                        height="40"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
-                <p style={{ margin: "15px 0px", textDecoration: "underline" }}> А также:</p>
-                <div className={styles.general}>
-                    <div className={styles.img}>
-                        <label>Postman</label>
-                        <img
-                            src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-                            alt="postman"
-                            width="40"
-                            height="40"
-                        />
-                    </div>
-                    <div className={styles.smallText}>
-                        <label>Figma</label>
-                        <img
-                            src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
-                            alt="figma"
-                            width="40"
-                            height="40"
-                        />
-                    </div>
-                    <div className={styles.img}>
-                        <label>Photoshop</label>
-                        <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
-                            alt="photoshop"
-                            width="40"
-                            height="40"
-                        />
-                    </div>
-                </div>
-                <button style={{ marginTop: "45px" }} className={styles.backToExperience} onClick={hendlePopup}> {`<`}Вернуться к опыту</button>
+                <button style={{ marginTop: "45px" }} className={styles.backToExperience} onClick={hendlePopup}>&#10094; Вернуться к опыту</button>
             </div>}
 
         </div>

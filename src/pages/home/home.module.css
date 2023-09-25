@@ -4,7 +4,7 @@
 }
 
 .container_inner {
-  padding: 100px 25px;
+  padding: 80px 25px;
 }
 
 label {
@@ -38,10 +38,13 @@ label {
   background-color: #f2bc12;
   font-family: "Oswald", sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   cursor: pointer;
 }
 .more {
   cursor: pointer;
   color: #f2bc12;
+}
+.testing_other {
+  display: flex;
 }
