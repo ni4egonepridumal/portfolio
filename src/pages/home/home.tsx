@@ -19,14 +19,14 @@ export const Home = () => {
     return (
         <div className={styles.container}>
             {showExperience && <>
-                <div style={{ fontSize: "25px" }} className={styles.container_inner}>
-                    <p>Занимаюсь разработкой более 3х лет, <span className={styles.more} onClick={hendlePopup}>тут</span> перечислил основные технологии, которыми владею</p>
+                <div style={{ fontSize: "22px" }} className={styles.container_inner}>
+                    <p >Занимаюсь разработкой более 3х лет, <span className={styles.more} onClick={hendlePopup}>тут</span> перечислил основные технологии, которыми владею</p>
                     <br />
                     <p style={{ textDecoration: "underline" }}>Опыт:</p>
                     <br />
                     <p>Про свой опыт рассказываю более подробно в <span style={{ cursor: "pointer", color: "#f2bc12" }}><Link to={'/projects/repair'}>каждом из разработанных мной проектах,</Link></span> если вкратце то ...</p>
                     <br />
-                    <p>Имею опыт командной разработки - Open Sourse проект, с января 2022 по настоящее время разрабатываем проект по ведению Ремонтов, в данном проекте, разрабатывал отдельные компоненты, верстал их, адаптировал под нужды команды, запросы к базе данных, отправка в базу данных.</p>
+                    <p>Имею опыт командной разработки - OpenSourse проект, с января 2022 по настоящее время разрабатываем проект по ведению Ремонтов, в данном проекте, разрабатывал отдельные компоненты, верстал их, адаптировал под нужды команды, запросы к базе данных, отправка в базу данных.</p>
                     <br />
                     <p>Самостоятельно разрабатывал ПЕТ проекты, в каждом из которых осваивал новую для себя технологию, например в проекте <span><Link to={'/projects/burgers'} style={{ cursor: "pointer", color: "#f2bc12" }}>"Магазин Бургеров"</Link></span>, отрабатывал навыки использования LocalStorage,
                         а в проекте <span style={{ cursor: "pointer", color: "#f2bc12" }}><Link to={'/projects/testovoe1'}>"тестовое с веба",</Link></span> отрабатывал взаимодействие с базой данных.
@@ -48,9 +48,9 @@ export const Home = () => {
                 </div>
             </>}
 
-            {showStack && <>
+            {showStack && <div>
                 <p>Стек технологий, которые я использую:</p>
-                <p style={{ marginBottom: "15px" }}> Основное:</p>
+                <p style={{ marginBottom: "15px", textDecoration: "underline" }}> Основное:</p>
                 <div className={styles.general}>
                     <div className={styles.img}>
                         <label>JavaScript</label>
@@ -125,7 +125,7 @@ export const Home = () => {
                         />
                     </div>
                 </div>
-                <p style={{ margin: "15px 0px" }}> Библиотеки:</p>
+                <p style={{ margin: "15px 0px", textDecoration: "underline" }}> Библиотеки:</p>
                 <div className={styles.general}>
                     <div className={styles.smallText}>
                         <label>React</label>
@@ -155,7 +155,7 @@ export const Home = () => {
                         />
                     </div>
                 </div>
-                <p style={{ margin: "15px 0px" }}> Сборщики:</p>
+                <p style={{ margin: "15px 0px", textDecoration: "underline" }}> Сборщики:</p>
                 <div className={styles.general}>
                     <div className={styles.img}>
                         <label>Webpack</label>
@@ -185,7 +185,7 @@ export const Home = () => {
                         />
                     </div>
                 </div>
-                <p style={{ margin: "15px 0px" }}> Красота:</p>
+                <p style={{ margin: "15px 0px", textDecoration: "underline" }}> Красота:</p>
                 <div className={styles.general}>
                     <div className={styles.smallText}>
                         <label>SCSS</label>
@@ -215,7 +215,7 @@ export const Home = () => {
                         />
                     </div>
                 </div>
-                <p style={{ margin: "15px 0px" }}> Тесты:</p>
+                <p style={{ margin: "15px 0px", textDecoration: "underline" }}> Тесты:</p>
                 <div className={styles.general}>
                     <div className={styles.smallText}>
                         <label>Jest</label>
@@ -227,7 +227,7 @@ export const Home = () => {
                         />
                     </div>
                 </div>
-                <p style={{ margin: "15px 0px" }}> А также:</p>
+                <p style={{ margin: "15px 0px", textDecoration: "underline" }}> А также:</p>
                 <div className={styles.general}>
                     <div className={styles.img}>
                         <label>Postman</label>
@@ -257,8 +257,8 @@ export const Home = () => {
                         />
                     </div>
                 </div>
-                <button style={{ marginTop: "45px" }} className={styles.backToExperience} onClick={hendlePopup}> {`<-`}Вернуться к опыту</button>
-            </>}
+                <button style={{ marginTop: "45px" }} className={styles.backToExperience} onClick={hendlePopup}> {`<`}Вернуться к опыту</button>
+            </div>}
 
         </div>
     );

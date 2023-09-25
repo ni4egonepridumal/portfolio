@@ -1,10 +1,10 @@
 .container {
   padding: 0px 25px;
-  font-size: 36px;
+  font-size: 25px;
 }
 
 .container_inner {
-  padding: 150px 25px;
+  padding: 100px 25px;
 }
 
 label {
@@ -36,7 +36,7 @@ label {
   border-radius: 15px;
   border: solid 2px #f2bc12;
   background-color: #f2bc12;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: white;
   font-size: 30px;
   cursor: pointer;

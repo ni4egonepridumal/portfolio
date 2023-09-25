@@ -7,10 +7,14 @@ export const Aside = () => {
 
     return (
         <div className={styles.container}>
-            <div style={{ textAlign: "center", marginTop: "100px" }}>
+            <div style={{ textAlign: "center", marginTop: "50px" }}>
                 <p>Приветствую !</p>
                 <p>Меня зовут Максим</p>
-                <p>Я Frontend Developer</p>
+                <p>Я Frontend Developer.</p>
+                <br></br>
+                <p>Мой возраст 32 года;</p>
+                <p>Образование:</p>
+                <p>ЮУрГУ: Юрист 2008-2013</p>
             </div>
             <div className={styles.img} ></div>
             <div className={styles.contact_inner}>
