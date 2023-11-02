@@ -12,6 +12,7 @@ label {
 }
 .general {
   display: flex;
+  flex-wrap: wrap;
 }
 .img {
   width: 83px;
@@ -47,4 +48,15 @@ label {
 }
 .testing_other {
   display: flex;
+}
+
+@media (max-width: 850px) {
+  .general_mobile {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .backToExperience {
+    font-size: 12px;
+  }
 }

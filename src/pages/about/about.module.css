@@ -2,3 +2,9 @@
   padding: 220px 25px;
   font-size: 36px;
 }
+
+@media (max-width: 850px) {
+  .container {
+    margin-left: 50px;
+  }
+}

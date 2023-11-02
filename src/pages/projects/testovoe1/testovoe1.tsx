@@ -40,7 +40,7 @@ export const Testovoe1 = () => {
                     </Item>
                 </Gallery>
             </div>
-            <div>
+            <div className={styles.anchor_inner}>
                 <div style={{ color: 'red' }}>
                     Ссылки:
                 </div>
@@ -66,7 +66,7 @@ export const Testovoe1 = () => {
                     <p>Реализовал валидацию на клиенте.</p>
                     <p>После отправки в консоль также выводятся данные пользователя.</p>
                 </div>
-                <div>
+                <div className={styles.library}>
                     <p>Для реализации проекта использовал следующие библиотеки:</p>
                     <ul>
                         <li>-@reduxjs/toolkit;</li>

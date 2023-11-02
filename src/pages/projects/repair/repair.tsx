@@ -40,7 +40,7 @@ export const Repair = () => {
                     </Item>
                 </Gallery>
             </div>
-            <div>
+            <div className={styles.aboutRepair}>
                 <div style={{ color: 'red' }}>
                     <div>
                         Ссылки:
@@ -51,7 +51,7 @@ export const Repair = () => {
                     </div>
                 </div>
             </div>
-            <div style={{ marginTop: "10px" }}>
+            <div style={{ paddingTop: "10px" }} className={styles.aboutRepair}>
                 <p>OpenSourse: "Приложение для контроля трат на ремонт"</p>
                 <br />
                 <div>
@@ -64,7 +64,7 @@ export const Repair = () => {
                     </p>
                     <br />
                     <div className={styles.whatIdo}>
-                        <div>
+                        <div className={styles.skills}>
                             <p>На данном проекте я реализовал следующий функционал:</p>
                             <ul>
                                 <li>-Форму для создания нового ремонта, её верстка;</li>
@@ -83,7 +83,7 @@ export const Repair = () => {
                     </div>
                 </div>
                 <br />
-                <div>
+                <div className={styles.choseLibrary}>
                     <p>Используемые библиотеки:</p>
                     <p>-react;</p>
                     <p>-redux/@toolkit/createAsyncThunk;</p>
